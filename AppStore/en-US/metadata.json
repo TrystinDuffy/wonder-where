@@ -1,0 +1,30 @@
+{
+  "locale": "en-US",
+  "name": "WonderWhere",
+  "subtitle": "A compass for surprise outings",
+  "promotional_text": "Turn your next outing into a trail of surprises. Plan the stops, add a few hints, and follow the compass as each destination is revealed on arrival.",
+  "keywords": "date night,day trip,itinerary,scavenger hunt,proposal,walk,explore,weekend,trip planner",
+  "description_file": "description.txt",
+  "whats_new": "Meet WonderWhere: plan a day of secret destinations, follow the compass, and reveal each place when you arrive.",
+  "primary_category": "Travel",
+  "secondary_category": "Lifestyle",
+  "copyright": "2026 Trystin Duffy",
+  "support_email": "trystinduffy@gmail.com",
+  "support_url": "https://trystinduffy.github.io/wonder-where/support/",
+  "marketing_url": "https://trystinduffy.github.io/wonder-where/",
+  "privacy_policy_url": "https://trystinduffy.github.io/wonder-where/privacy/",
+  "review_contact": {
+    "first_name": "Trystin",
+    "last_name": "Duffy",
+    "email": "trystinduffy@gmail.com",
+    "phone": null
+  },
+  "review_notes_file": "../review-notes.md",
+  "internal_submission_notes": [
+    "Public pages are hosted with GitHub Pages. Verify all three HTTPS URLs before submitting the App Store version.",
+    "Supply the App Review contact telephone number in App Store Connect; no number has been provided.",
+    "Pricing has not been confirmed. This copy makes no free, subscription, or purchase claims.",
+    "Retain the current app icon. Categories are suggested metadata for publisher review.",
+    "Paste only the App Review notes section of review-notes.md into App Store Connect. Internal submission notes are not customer-facing metadata."
+  ]
+}

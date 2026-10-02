@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>UIBackgroundModes</key><array><string>location</string></array>
+<key>NSAlarmKitUsageDescription</key><string>WonderWhere schedules the trip-start, departure, and deadline alarms you choose.</string>
+<key>NSCalendarsFullAccessUsageDescription</key><string>WonderWhere uses calendar access to list your calendars, add trip events to the calendar you choose, and find its own events when you ask to update them.</string>
+<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+<key>ITSAppUsesNonExemptEncryption</key><false/>
+</dict></plist>

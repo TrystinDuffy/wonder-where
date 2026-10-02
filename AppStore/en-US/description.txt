@@ -1,0 +1,29 @@
+Make the journey part of the surprise.
+
+WonderWhere helps you plan a date, a day with friends, or an adventure close to home. Choose the places ahead of time, then follow a compass that keeps the next destination's name hidden until you arrive.
+
+It began with a proposal day: a series of meaningful stops, with the next surprise still to come. Now you can make a day of your own.
+
+FOLLOW THE COMPASS
+See the direction and rough distance to the next place. Add an optional hint for the journey. On arrival, the compass opens into a map with the place's name and your instructions. If you move away, the revealed map stays with you and a smaller compass helps guide you back.
+
+BUILD YOUR DAY
+Search for places, choose them on a map, or enter coordinates. Give each one your own name, adjust its arrival area, and arrange the stops in order. Use one area for the whole visit or set separate places to enter, explore, and leave. View the plan as a list or a map.
+
+MAKE ROOM FOR WHAT MATTERS
+Set a fixed visit length or a flexible range. Give places appointment, arrive-by, or leave-by requirements, then choose their dates and times when scheduling a trip. Review travel estimates, your expected finish, and timing conflicts before you start. Flexible visits and optional stops can help the schedule adapt within the limits you choose.
+
+KEEP THE PLAN, REMEMBER THE VISITS
+Save a plan to use again with new dates. Each trip has its own schedule and recorded progress. Look back at places you have reached, then resume the current trip. An optional configuration PIN helps keep curious taps from revealing the rest of the day.
+
+ADD YOUR PERSONAL TOUCH
+Choose an accent color, compass design, and border. Write ordered arrival instructions, from "Find a table outside" to "Take a photo together."
+
+KEEP YOUR CALENDAR IN THE LOOP
+Choose optional notifications for departure, arrival, and scheduled times. Add or update a trip in Apple Calendar, or add events to a Google calendar connected through your iPhone's calendar settings. You can also share a calendar file. Calendar updates happen when you choose them; shared files are snapshots.
+
+No WonderWhere account is needed to plan and navigate. Adding or updating calendar events requires calendar permission. Account syncing also requires an account connected to your iPhone. Alarms are available on iOS 26 or later; notifications are available on earlier supported versions.
+
+The compass points toward a place in a straight line, rather than providing turn-by-turn road directions. Tap a revealed map to open the location in Apple Maps. Map detail, travel estimates, and calendar sync depend on available data and connectivity. Background location supports recording arrivals during an active trip; force-quitting the app interrupts that tracking.
+
+Requires iPhone with iOS 17 or later.

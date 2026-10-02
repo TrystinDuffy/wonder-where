@@ -1,0 +1,20 @@
+# Local builds, device backups, recordings, and generated website output.
+/build*/
+/DerivedData/
+*.xcarchive
+*.xcresult
+*.ipa
+
+# Per-user Xcode and macOS files.
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Local credentials and tooling caches.
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+__pycache__/
+node_modules/

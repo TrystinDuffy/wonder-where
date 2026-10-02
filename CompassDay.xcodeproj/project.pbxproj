@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B0C3B70D54D1270B205F5E /* ConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D849F7D892BB26521B97E28 /* ConfigurationTests.swift */; };
+		14AF31061D1EF459F2692236 /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68EBEF173B28E51D041E59F /* ConfigurationView.swift */; };
+		19B6F2282F5A9288284ECD41 /* CompassDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43317150B74E45387C2116ED /* CompassDayApp.swift */; };
+		21D39CBEA2ED461185700F47 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658790AB19174121D35E8BD7 /* CompassView.swift */; };
+		439C7D3A1481CDC1E9270E23 /* TripStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDFDBBAE47826165BB0518 /* TripStore.swift */; };
+		49F88068687D678F97E816FE /* ItineraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA771E9989548FF2D95F2F /* ItineraryTests.swift */; };
+		9F3BA124D68063405F76A87D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DD949791AB65BEB133A3AC /* LocationService.swift */; };
+		A8E635A6D265901372211B2B /* StopEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55246E52A4A8FD42FD78D323 /* StopEditor.swift */; };
+		ECE06AC6D26857B7159D0151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9619B9AD3CC8ED564F111E /* Assets.xcassets */; };
+		FDC069A28C2D5F9AE6C18CF2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743535F9CB74FC185715F54 /* Models.swift */; };
+		8D0EBB0E8DB4A1C6045670E6 /* CompassArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A017858140D6DFD4D4C780B8 /* CompassArtwork.swift */; };
+		2CA77976095185DF09BE8ACA /* PlaceEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28278EE42B84C5219BBF3D78 /* PlaceEditorView.swift */; };
+		79D0001B9FEADDFA4D5F04F7 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B64A90A8BDE6818F2154C7 /* ReminderSettingsView.swift */; };
+		EFB9857E89A807A42CAAB9C4 /* StopsOverviewMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54AFCA229E17F4FEF60301E /* StopsOverviewMap.swift */; };
+		D915AB59E985E19CF507C8CD /* TripDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6C914D8A495B70532779B /* TripDomain.swift */; };
+		30EABB8D37E9021CDD75CAA1 /* TripEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEF8CFF622489D31982768 /* TripEngine.swift */; };
+		C3E95EB4369677C3F7EF58FC /* TripLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66467CB91BE4AB6AA951806 /* TripLibraryView.swift */; };
+		2A7418DFE2CFF7D337652601 /* TripReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E75C02C6988D95F2546F7B /* TripReminders.swift */; };
+		8FA2F3076B98BA91D36367F1 /* TripRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A1FA87B44B6C14CCD75FB /* TripRepository.swift */; };
+		1738019C87FD5ADC91476E84 /* TripRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77D2C6C4F627C5F11E5272 /* TripRoutes.swift */; };
+		30AABE70A63EC730372F68C9 /* TripScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3936C31D19671BD47505F /* TripScheduler.swift */; };
+		0F93BF08E083069F2084DE33 /* TripEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E2E89197DDC5EC8DE09B /* TripEngineTests.swift */; };
+		437407FC9AB11FCFA885E4A8 /* TripReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B0013D2526B8C2902C6FD /* TripReminderTests.swift */; };
+		8D013DA354C876680128B265 /* TripSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EDC7F172833934A3CE9A6 /* TripSchedulerTests.swift */; };
+		6BD36B27D6FA14234C1FECE7 /* TripFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A690E830801507383F05268 /* TripFlowTests.swift */; };
+		70625FC69646CB4292A7C836 /* RouteEstimateEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D987DCAD93CB1BC6CCA191 /* RouteEstimateEditor.swift */; };
+		2E02DF471BA048F5A4078D07 /* TripCalendarExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BAEBAB74C4DC6922EF9A3 /* TripCalendarExport.swift */; };
+		33F173D5A7BC4D62A7C626E7 /* TripCalendarSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF04CCBDE3AE435CB72E4D22 /* TripCalendarSharing.swift */; };
+		1B154322228F49BD89CEC96C /* TripCalendarExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35033165ECFD487CAFE0B55E /* TripCalendarExportTests.swift */; };
+		7AA48B402D1944D78FD05985 /* TripAppleCalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60AA1B2379B4E98BB207D2B /* TripAppleCalendarService.swift */; };
+		D436A249B143414EBA289D29 /* TripAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA2DCC8E0D41DFB2027CAE /* TripAppleCalendarView.swift */; };
+		FE9A1DDE7B80491285213205 /* TripAppleCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE902E28099458AB1CB9B85 /* TripAppleCalendarTests.swift */; };
+		CCADFB3504D84A52AB809966 /* TripGoogleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952E7FE06244B3F8F449A48 /* TripGoogleCalendarView.swift */; };
+		5EC84CE86787421C89FC4C92 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03991059FE04BBB95544C47 /* AppInformationView.swift */; };
+		70CDAE51AB4942739073F691 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C9691471F4559AD8FE098 /* PrivacyInfo.xcprivacy */; };
+		E228D15509ED4FAD8075CAF4 /* privacy-policy.md in Resources */ = {isa = PBXBuildFile; fileRef = C45EE715B53146A1AD77329F /* privacy-policy.md */; };
+		88566DCBC3ED4186887D9AE2 /* support.md in Resources */ = {isa = PBXBuildFile; fileRef = 06CBDA618B9C43A58226D9D7 /* support.md */; };
+		E7A5DE18571E46739179C6D0 /* about.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C5E37ECFACE41EB8216C78C /* about.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12595DB95707A6AC898D1EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4746639ED433090CAC8D85FD;
+			remoteInfo = CompassDay;
+		};
+		A754A0D7FD123E6DDE980930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4746639ED433090CAC8D85FD;
+			remoteInfo = CompassDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC02CE0C931FEF1519AA014 /* CompassDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CompassDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2743535F9CB74FC185715F54 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3D849F7D892BB26521B97E28 /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
+		3EEA771E9989548FF2D95F2F /* ItineraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTests.swift; sourceTree = "<group>"; };
+		43317150B74E45387C2116ED /* CompassDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassDayApp.swift; sourceTree = "<group>"; };
+		54CDFDBBAE47826165BB0518 /* TripStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStore.swift; sourceTree = "<group>"; };
+		55246E52A4A8FD42FD78D323 /* StopEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopEditor.swift; sourceTree = "<group>"; };
+		5893D46517E4882EE0A1C6FC /* CompassDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CompassDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9619B9AD3CC8ED564F111E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		658790AB19174121D35E8BD7 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		70DD949791AB65BEB133A3AC /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		C1D1D6BD0D5CAE35247DF17D /* CompassDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CompassDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68EBEF173B28E51D041E59F /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
+		A017858140D6DFD4D4C780B8 /* CompassArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassArtwork.swift; sourceTree = "<group>"; };
+		28278EE42B84C5219BBF3D78 /* PlaceEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEditorView.swift; sourceTree = "<group>"; };
+		B2B64A90A8BDE6818F2154C7 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+		D54AFCA229E17F4FEF60301E /* StopsOverviewMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsOverviewMap.swift; sourceTree = "<group>"; };
+		EDC6C914D8A495B70532779B /* TripDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDomain.swift; sourceTree = "<group>"; };
+		BDFEF8CFF622489D31982768 /* TripEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEngine.swift; sourceTree = "<group>"; };
+		E66467CB91BE4AB6AA951806 /* TripLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLibraryView.swift; sourceTree = "<group>"; };
+		E0E75C02C6988D95F2546F7B /* TripReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripReminders.swift; sourceTree = "<group>"; };
+		9B4A1FA87B44B6C14CCD75FB /* TripRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRepository.swift; sourceTree = "<group>"; };
+		7E77D2C6C4F627C5F11E5272 /* TripRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRoutes.swift; sourceTree = "<group>"; };
+		4DD3936C31D19671BD47505F /* TripScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripScheduler.swift; sourceTree = "<group>"; };
+		6CD7E2E89197DDC5EC8DE09B /* TripEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEngineTests.swift; sourceTree = "<group>"; };
+		E94B0013D2526B8C2902C6FD /* TripReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripReminderTests.swift; sourceTree = "<group>"; };
+		7F8EDC7F172833934A3CE9A6 /* TripSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSchedulerTests.swift; sourceTree = "<group>"; };
+		6A690E830801507383F05268 /* TripFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFlowTests.swift; sourceTree = "<group>"; };
+		24D987DCAD93CB1BC6CCA191 /* RouteEstimateEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEstimateEditor.swift; sourceTree = "<group>"; };
+		561BAEBAB74C4DC6922EF9A3 /* TripCalendarExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCalendarExport.swift; sourceTree = "<group>"; };
+		DF04CCBDE3AE435CB72E4D22 /* TripCalendarSharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCalendarSharing.swift; sourceTree = "<group>"; };
+		35033165ECFD487CAFE0B55E /* TripCalendarExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCalendarExportTests.swift; sourceTree = "<group>"; };
+		E60AA1B2379B4E98BB207D2B /* TripAppleCalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAppleCalendarService.swift; sourceTree = "<group>"; };
+		60DA2DCC8E0D41DFB2027CAE /* TripAppleCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAppleCalendarView.swift; sourceTree = "<group>"; };
+		BEE902E28099458AB1CB9B85 /* TripAppleCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAppleCalendarTests.swift; sourceTree = "<group>"; };
+		8952E7FE06244B3F8F449A48 /* TripGoogleCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripGoogleCalendarView.swift; sourceTree = "<group>"; };
+		D03991059FE04BBB95544C47 /* AppInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppInformationView.swift"; path = "CompassDay/AppInformationView.swift"; sourceTree = SOURCE_ROOT; };
+		0E8C9691471F4559AD8FE098 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "PrivacyInfo.xcprivacy"; path = "CompassDay/PrivacyInfo.xcprivacy"; sourceTree = SOURCE_ROOT; };
+		C45EE715B53146A1AD77329F /* privacy-policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "privacy-policy.md"; path = "AppStore/privacy-policy.md"; sourceTree = SOURCE_ROOT; };
+		06CBDA618B9C43A58226D9D7 /* support.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "support.md"; path = "AppStore/support.md"; sourceTree = SOURCE_ROOT; };
+		5C5E37ECFACE41EB8216C78C /* about.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "about.md"; path = "AppStore/about.md"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16235D0BDFD5E6975B53D328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC64C1866B670E1C9F60E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C0C1757D44C0C1ADF35DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E2AA25F1DB033EE641C55D /* CompassDay */ = {
+			isa = PBXGroup;
+			children = (
+				5C5E37ECFACE41EB8216C78C /* about.md */,
+				06CBDA618B9C43A58226D9D7 /* support.md */,
+				C45EE715B53146A1AD77329F /* privacy-policy.md */,
+				0E8C9691471F4559AD8FE098 /* PrivacyInfo.xcprivacy */,
+				D03991059FE04BBB95544C47 /* AppInformationView.swift */,
+				8952E7FE06244B3F8F449A48 /* TripGoogleCalendarView.swift */,
+				60DA2DCC8E0D41DFB2027CAE /* TripAppleCalendarView.swift */,
+				E60AA1B2379B4E98BB207D2B /* TripAppleCalendarService.swift */,
+				DF04CCBDE3AE435CB72E4D22 /* TripCalendarSharing.swift */,
+				561BAEBAB74C4DC6922EF9A3 /* TripCalendarExport.swift */,
+				24D987DCAD93CB1BC6CCA191 /* RouteEstimateEditor.swift */,
+				4DD3936C31D19671BD47505F /* TripScheduler.swift */,
+				7E77D2C6C4F627C5F11E5272 /* TripRoutes.swift */,
+				9B4A1FA87B44B6C14CCD75FB /* TripRepository.swift */,
+				E0E75C02C6988D95F2546F7B /* TripReminders.swift */,
+				E66467CB91BE4AB6AA951806 /* TripLibraryView.swift */,
+				BDFEF8CFF622489D31982768 /* TripEngine.swift */,
+				EDC6C914D8A495B70532779B /* TripDomain.swift */,
+				D54AFCA229E17F4FEF60301E /* StopsOverviewMap.swift */,
+				B2B64A90A8BDE6818F2154C7 /* ReminderSettingsView.swift */,
+				28278EE42B84C5219BBF3D78 /* PlaceEditorView.swift */,
+				A017858140D6DFD4D4C780B8 /* CompassArtwork.swift */,
+				43317150B74E45387C2116ED /* CompassDayApp.swift */,
+				658790AB19174121D35E8BD7 /* CompassView.swift */,
+				C68EBEF173B28E51D041E59F /* ConfigurationView.swift */,
+				70DD949791AB65BEB133A3AC /* LocationService.swift */,
+				2743535F9CB74FC185715F54 /* Models.swift */,
+				55246E52A4A8FD42FD78D323 /* StopEditor.swift */,
+				54CDFDBBAE47826165BB0518 /* TripStore.swift */,
+				5F9619B9AD3CC8ED564F111E /* Assets.xcassets */,
+			);
+			path = CompassDay;
+			sourceTree = "<group>";
+		};
+		0A4C034BFD51B20E749F21F6 /* CompassDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE902E28099458AB1CB9B85 /* TripAppleCalendarTests.swift */,
+				35033165ECFD487CAFE0B55E /* TripCalendarExportTests.swift */,
+				7F8EDC7F172833934A3CE9A6 /* TripSchedulerTests.swift */,
+				E94B0013D2526B8C2902C6FD /* TripReminderTests.swift */,
+				6CD7E2E89197DDC5EC8DE09B /* TripEngineTests.swift */,
+				3EEA771E9989548FF2D95F2F /* ItineraryTests.swift */,
+			);
+			path = CompassDayTests;
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				08E2AA25F1DB033EE641C55D /* CompassDay */,
+				0A4C034BFD51B20E749F21F6 /* CompassDayTests */,
+				F5C72D56136BB0B9A1E41080 /* CompassDayUITests */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C72D56136BB0B9A1E41080 /* CompassDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A690E830801507383F05268 /* TripFlowTests.swift */,
+				3D849F7D892BB26521B97E28 /* ConfigurationTests.swift */,
+			);
+			path = CompassDayUITests;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D1D6BD0D5CAE35247DF17D /* CompassDay.app */,
+				0EC02CE0C931FEF1519AA014 /* CompassDayTests.xctest */,
+				5893D46517E4882EE0A1C6FC /* CompassDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB8EDCDD015382F8DF8DAD3 /* CompassDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7DA5BF8BEF55250B22BFE1 /* Build configuration list for PBXNativeTarget "CompassDayUITests" */;
+			buildPhases = (
+				F43D3FB4149702AD7F6B4A27 /* Sources */,
+				1CC64C1866B670E1C9F60E28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3EC7D401BB50536FE6BB9C2 /* PBXTargetDependency */,
+			);
+			name = CompassDayUITests;
+			productName = CompassDayUITests;
+			productReference = 5893D46517E4882EE0A1C6FC /* CompassDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4746639ED433090CAC8D85FD /* CompassDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15D27FAC521EEAAC21E753F /* Build configuration list for PBXNativeTarget "CompassDay" */;
+			buildPhases = (
+				626EF4CA098C1A7514F7A256 /* Sources */,
+				798C0C1757D44C0C1ADF35DE /* Frameworks */,
+				9C4F90093C446E405DDCCC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompassDay;
+			productName = CompassDay;
+			productReference = C1D1D6BD0D5CAE35247DF17D /* CompassDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD1F3C21FA3FDCF52F3D73C /* CompassDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25AE00CABF1BCDDBD756A982 /* Build configuration list for PBXNativeTarget "CompassDayTests" */;
+			buildPhases = (
+				EAC028078E3529C670F0B2BC /* Sources */,
+				16235D0BDFD5E6975B53D328 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD87D426E32C423CC73AD04 /* PBXTargetDependency */,
+			);
+			name = CompassDayTests;
+			productName = CompassDayTests;
+			productReference = 0EC02CE0C931FEF1519AA014 /* CompassDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = 9A306D578D83D1E0821F2E35 /* Build configuration list for PBXProject "CompassDay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4746639ED433090CAC8D85FD /* CompassDay */,
+				FCD1F3C21FA3FDCF52F3D73C /* CompassDayTests */,
+				3EB8EDCDD015382F8DF8DAD3 /* CompassDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4F90093C446E405DDCCC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A5DE18571E46739179C6D0 /* about.md in Resources */,
+				88566DCBC3ED4186887D9AE2 /* support.md in Resources */,
+				E228D15509ED4FAD8075CAF4 /* privacy-policy.md in Resources */,
+				70CDAE51AB4942739073F691 /* PrivacyInfo.xcprivacy in Resources */,
+				ECE06AC6D26857B7159D0151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		626EF4CA098C1A7514F7A256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC84CE86787421C89FC4C92 /* AppInformationView.swift in Sources */,
+				CCADFB3504D84A52AB809966 /* TripGoogleCalendarView.swift in Sources */,
+				D436A249B143414EBA289D29 /* TripAppleCalendarView.swift in Sources */,
+				7AA48B402D1944D78FD05985 /* TripAppleCalendarService.swift in Sources */,
+				33F173D5A7BC4D62A7C626E7 /* TripCalendarSharing.swift in Sources */,
+				2E02DF471BA048F5A4078D07 /* TripCalendarExport.swift in Sources */,
+				70625FC69646CB4292A7C836 /* RouteEstimateEditor.swift in Sources */,
+				30AABE70A63EC730372F68C9 /* TripScheduler.swift in Sources */,
+				1738019C87FD5ADC91476E84 /* TripRoutes.swift in Sources */,
+				8FA2F3076B98BA91D36367F1 /* TripRepository.swift in Sources */,
+				2A7418DFE2CFF7D337652601 /* TripReminders.swift in Sources */,
+				C3E95EB4369677C3F7EF58FC /* TripLibraryView.swift in Sources */,
+				30EABB8D37E9021CDD75CAA1 /* TripEngine.swift in Sources */,
+				D915AB59E985E19CF507C8CD /* TripDomain.swift in Sources */,
+				EFB9857E89A807A42CAAB9C4 /* StopsOverviewMap.swift in Sources */,
+				79D0001B9FEADDFA4D5F04F7 /* ReminderSettingsView.swift in Sources */,
+				2CA77976095185DF09BE8ACA /* PlaceEditorView.swift in Sources */,
+				8D0EBB0E8DB4A1C6045670E6 /* CompassArtwork.swift in Sources */,
+				19B6F2282F5A9288284ECD41 /* CompassDayApp.swift in Sources */,
+				21D39CBEA2ED461185700F47 /* CompassView.swift in Sources */,
+				14AF31061D1EF459F2692236 /* ConfigurationView.swift in Sources */,
+				9F3BA124D68063405F76A87D /* LocationService.swift in Sources */,
+				FDC069A28C2D5F9AE6C18CF2 /* Models.swift in Sources */,
+				A8E635A6D265901372211B2B /* StopEditor.swift in Sources */,
+				439C7D3A1481CDC1E9270E23 /* TripStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC028078E3529C670F0B2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9A1DDE7B80491285213205 /* TripAppleCalendarTests.swift in Sources */,
+				1B154322228F49BD89CEC96C /* TripCalendarExportTests.swift in Sources */,
+				8D013DA354C876680128B265 /* TripSchedulerTests.swift in Sources */,
+				437407FC9AB11FCFA885E4A8 /* TripReminderTests.swift in Sources */,
+				0F93BF08E083069F2084DE33 /* TripEngineTests.swift in Sources */,
+				49F88068687D678F97E816FE /* ItineraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43D3FB4149702AD7F6B4A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD36B27D6FA14234C1FECE7 /* TripFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD87D426E32C423CC73AD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4746639ED433090CAC8D85FD /* CompassDay */;
+			targetProxy = 12595DB95707A6AC898D1EB2 /* PBXContainerItemProxy */;
+		};
+		E3EC7D401BB50536FE6BB9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4746639ED433090CAC8D85FD /* CompassDay */;
+			targetProxy = A754A0D7FD123E6DDE980930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16BC85E76AA67010C819B2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duffy.CompassDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = CompassDay;
+			};
+			name = Release;
+		};
+		2BB003411B8F8F27700602B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MPH322LN73;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WonderWhere;
+				MARKETING_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CompassDay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location guides you to saved places and records arrivals during an active trip, including while your phone is locked.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duffy.CompassDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38F03FCBDACA10AAD4143C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3BE6BBC052516DB2F67739E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPH322LN73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WonderWhere;
+				MARKETING_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CompassDay/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location guides you to saved places and records arrivals during an active trip, including while your phone is locked.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duffy.CompassDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		685EA186909DFBDD1F4FC675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duffy.CompassDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = CompassDay;
+			};
+			name = Debug;
+		};
+		70BD857D2AA2CF062401E3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duffy.CompassDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompassDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompassDay";
+			};
+			name = Debug;
+		};
+		941798AECA264FECE6B7C45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD610D3D51186894C618C726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duffy.CompassDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompassDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompassDay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25AE00CABF1BCDDBD756A982 /* Build configuration list for PBXNativeTarget "CompassDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BD857D2AA2CF062401E3C5 /* Debug */,
+				BD610D3D51186894C618C726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A306D578D83D1E0821F2E35 /* Build configuration list for PBXProject "CompassDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941798AECA264FECE6B7C45D /* Debug */,
+				38F03FCBDACA10AAD4143C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15D27FAC521EEAAC21E753F /* Build configuration list for PBXNativeTarget "CompassDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB003411B8F8F27700602B0 /* Debug */,
+				3BE6BBC052516DB2F67739E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7DA5BF8BEF55250B22BFE1 /* Build configuration list for PBXNativeTarget "CompassDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685EA186909DFBDD1F4FC675 /* Debug */,
+				16BC85E76AA67010C819B2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
